@@ -1,0 +1,43 @@
+.todoHome{
+	width:400px;
+	margin:20px;
+	border-radius: 5px;
+	border:1px solid #e0e0e0;
+
+	>.title{
+		padding: 6px 0px;
+		text-align: center;
+		color:#336666;
+		font-size: 24px;
+	}
+
+	>.header{
+		width:100%;
+		background-color:#ecf5ff;
+
+		.login_user{
+			width:80%;
+			padding: 2px;
+		}
+
+		.setting{
+			width: 20%;
+			padding:2px;
+		}
+	}
+
+	>.body{
+		width:100%;
+		background-color: #fff;
+
+		.todo_content{
+			font-size: 1em;
+			font-weight: 200;
+		}
+	}
+}
+
+
+.todoItem{
+	width: 100%;
+}
